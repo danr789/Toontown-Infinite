@@ -1,0 +1,24 @@
+l>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>replace</title>
+<body>
+<script language="JavaScript" type="text/javascript">
+var pageName = '/';
+if (('/' == pageName) || (pageName.indexOf('content.asp') != -1 )
+|| (pageName.indexOf('quickcontent_arabic.asp') != -1)
+|| (pageName.indexOf('mirror.asp') != -1)
+|| (pageName.indexOf('insContent.asp') != -1)
+|| (pageName.indexOf('ins2Content.asp') != -1)
+|| (pageName.indexOf('getStatus.asp') != -1))
+{
+top.location.replace(pageName);
+}
+else
+{
+top.contentfrm.location.replace(pageName);
+}
+</script>
+</head>
+</body>
+</html
