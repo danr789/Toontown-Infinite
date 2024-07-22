@@ -96,15 +96,16 @@ class Nametag3d(Nametag, Clickable3d):
         else:
             self.applyClickState(PGButton.SInactive)
 
-        Clickable3d.setClickState(self, clickState)
+        #Clickable3d.setClickState(self, clickState) #crashes the game
 
     def enterDepressed(self):
         if self.isClickable():
             base.playSfx(NametagGlobals.clickSound)
 
     def enterRollover(self):
-        if self.isClickable() and (self.lastClickState != PGButton.SDepressed):
-            base.playSfx(NametagGlobals.rolloverSound)
+        #if self.isClickable() and (self.lastClickState != PGButton.SDepressed):
+        #    base.playSfx(NametagGlobals.rolloverSound)
+        pass # TODO: fix later, nametag in TTI is straight up kinda broken.
 
     def update(self):
         self.contents.node().removeAllChildren()

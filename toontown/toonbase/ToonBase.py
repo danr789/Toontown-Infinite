@@ -468,7 +468,7 @@ class ToonBase(OTPBase.OTPBase):
             return
         else:
             if gameserver is None:
-                gameserver = os.environ.get('TTI_GAMESERVER', '66.38.72.39')
+                gameserver = os.environ.get('TTI_GAMESERVER', '127.0.0.1')
             gameserverPort = base.config.GetInt('server-port', 7199)
             clientagents = base.config.GetInt('client-agents', 1) - 1
             gameserverPort += random.randint(0, clientagents) * 100

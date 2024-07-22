@@ -9842,7 +9842,7 @@ RemapPopup = 'Press the button you wish to remap this control to.'
 Controls = ['Move Up:', 'Move Left:', 'Move Down:', 'Move Right:',
             'Jump:', 'Action Key:', 'Options Hotkey:', 'Chatbox Hotkey:']
 
-IntroDisclaimer = 'Disclaimer:\n\nToon Island: Aftermath is not affiliated with The Walt Disney Company, and/or the Disney Interactive Media Group. All rights and intellectual property are owned by The Walt Disney Company. Toontown Infinite is free to play, and has no intentions of making revenue.'
+IntroDisclaimer = 'Disclaimer:\n\nToontown Infinite is not affiliated with The Walt Disney Company, and/or the Disney Interactive Media Group. All rights and intellectual property are owned by The Walt Disney Company. Toontown Infinite is free to play, and has no intentions of making revenue.'
 IntroPresents = 'Introducing the toontastic world of...'
 IntroExitButton = 'Exit'
 IntroYesButton = 'Yes'

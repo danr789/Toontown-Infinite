@@ -72,11 +72,11 @@ cls
 echo = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 echo Username [!] This does get stored in your source code so beware!
 echo = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-set /P TTI_USERNAME="Username: "
+set /P TTI_PLAYCOOKIE="Username: "
 echo.
 cls
 echo = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-echo Welcome to Toontown Infinite, %ttiUsername%!
+echo Welcome to Toontown Infinite, %ttiPLAYCOOKIE%!
 echo The Tooniverse Awaits You!
 echo = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 :startgame

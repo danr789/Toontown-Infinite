@@ -3,6 +3,7 @@ from direct.task.Task import Task
 from direct.distributed.ClockDelta import *
 from direct.fsm.FSM import FSM
 from direct.interval.IntervalGlobal import *
+from panda3d.core import *
 from toontown.racing.DistributedKartPad import DistributedKartPad
 from toontown.racing import RaceGlobals
 from toontown.toonbase.ToontownTimer import ToontownTimer

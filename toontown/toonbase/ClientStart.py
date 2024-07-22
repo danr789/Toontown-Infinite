@@ -112,13 +112,10 @@ DirectGuiGlobals.setDefaultClickSound(base.loader.loadSfx('phase_3/audio/sfx/GUI
 DirectGuiGlobals.setDefaultDialogGeom(loader.loadModel('phase_3/models/gui/dialog_box_gui.bam'))
 #from toontown.toon import Toon
 #Toon.preload()
-#from toontown.suit import Suit
-#Suit.preload()
+from toontown.suit import Suit
+Suit.loadModels()
 #Removed this.
-#from toontown.login import AvatarChooser
-#AvatarChooser.preload()
-#from toontown.shtiker import ShtikerGUI
-#ShtikerGUI.preload()
+
 from toontown.toontowngui.Introduction import Introduction
 introduction = Introduction()
 from toontown.toontowngui.ClickToStart import ClickToStart

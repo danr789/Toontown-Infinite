@@ -103,7 +103,7 @@ class Nametag2d(Nametag, Clickable2d, MarginVisible):
         else:
             self.applyClickState(PGButton.SInactive)
 
-        Clickable2d.setClickState(self, clickState)
+        #Clickable2d.setClickState(self, clickState) # Seems to crash the game
 
     def enterDepressed(self):
         if self.isClickable():

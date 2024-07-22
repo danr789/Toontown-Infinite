@@ -256,9 +256,9 @@ class HoodMgr(DirectObject.DirectObject):
 
     def getIdFromName(self, hoodName):
         id = self.hoodName2Id.get(hoodName)
-        if id:
+        try:
             return id
-        else:
+        except:
             self.notify.error('No such hood name as: %s' % hoodName)
 
     def getNameFromId(self, hoodId):
